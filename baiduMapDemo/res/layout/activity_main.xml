@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<Button 
+      android:id="@+id/btn_location"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="定位"
+      android:onClick="onBtnClick"/>
+  <Button 
+      android:id="@+id/btn_poi_city"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="poi在指定城市内检索,修改地图初始化城市以及mark图标"
+      android:onClick="onBtnClick"/>
+  <Button 
+      android:id="@+id/btn_poi_bound"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="poi在指定边界内检索"
+      android:onClick="onBtnClick"/>
+  <Button 
+      android:id="@+id/btn_poi_nearby"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="poi在附近检索(例如以x位置为起点，1Km内的公交站)，显示所有"
+      android:onClick="onBtnClick"/>
+    <Button 
+      android:id="@+id/btn_poi_location"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="定位加附近搜索"
+      android:onClick="onBtnClick"/>
+<Button 
+      android:id="@+id/btn_test"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="测试"
+      android:onClick="onBtnClick"/>
+</LinearLayout>
